@@ -14,7 +14,7 @@ curl -L --http1.1 https://cnfl.io/ccloud-cli | sh -s -- -b /usr/local/bin
 ![img_2.png](img/img_2.png)
 
 and at least if you prefer to run under docker, be sure that you have the kafka extension installed and enabled so an example image below;
-![img_1.png](img_1.png)
+![img_1.png](img/img_3.png)
 
 after you follow all the steps and ready to use the package, follow the steps below;
 
