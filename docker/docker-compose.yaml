@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+    test_service:
+        build: .
+        volumes:
+            - .:/app
+        command: php artisan queue:work

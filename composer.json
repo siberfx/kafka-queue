@@ -1,0 +1,40 @@
+{
+    "name": "siberfx/apache-kafka",
+    "description": "Apache Kafka Service Helper",
+    "keywords": [
+        "laravel 10.x",
+        "laravel 11.x",
+        "apache kafka",
+        "kafka service helper"
+    ],
+    "homepage": "https://github.com/siberfx/apache-kafka",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Selim Görmüş",
+            "email": "info@siberfx.com",
+            "role": "Fullstack Software Engineer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0 | ^11.0"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Siberfx\\Kafka\\KafkaServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Siberfx\\Kafka\\": "src"
+        }
+    }
+}
