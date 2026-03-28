@@ -2,8 +2,9 @@
     "name": "siberfx/apache-kafka",
     "description": "Apache Kafka Service Helper",
     "keywords": [
-        "laravel 10.x",
         "laravel 11.x",
+        "laravel 12.x",
+        "laravel 13.x",
         "apache kafka",
         "kafka service helper"
     ],
@@ -18,8 +19,8 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "laravel/framework": "^10.0 | ^11.0 | ^12.0"
+        "php": "^8.4",
+        "laravel/framework": "^11.0 | ^12.0| ^13.0"
     },
     "minimum-stability": "dev",
     "config": {
