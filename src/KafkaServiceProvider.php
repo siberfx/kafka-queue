@@ -7,12 +7,10 @@ use Siberfx\Kafka\Connector\KafkaConnector;
 
 class KafkaServiceProvider extends ServiceProvider
 {
-    protected $defer = false;
-
     /**
      * Bootstrap the application services.
      */
-    public function boot()
+    public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             // publish config file
@@ -26,7 +24,7 @@ class KafkaServiceProvider extends ServiceProvider
         });
     }
 
-    private function publish()
+    private function publish(): void
     {
 
         $config = [
@@ -40,7 +38,7 @@ class KafkaServiceProvider extends ServiceProvider
     /**
      * Register the application services.
      */
-    public function register()
+    public function register(): void
     {
 
     }

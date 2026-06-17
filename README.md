@@ -1,4 +1,4 @@
-## <p align="center">Apache Kafka Queue Service for Laravel 10.x 11.x</p>
+## <p align="center">Apache Kafka Queue Service for Laravel 12.x 13.x</p>
 
 ## Required before starting
 

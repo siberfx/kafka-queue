@@ -9,12 +9,10 @@ use Illuminate\Queue\Queue;
 
 class KafkaQueue extends Queue implements QueueContract
 {
-    protected $consumer, $producer;
-
-    public function __construct($producer, $consumer)
-    {
-        $this->producer = $producer;
-        $this->consumer = $consumer;
+    public function __construct(
+        protected $producer,
+        protected $consumer
+    ) {
     }
 
     public function size($queue = null)

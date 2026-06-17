@@ -7,7 +7,7 @@ use Siberfx\Kafka\Queue\KafkaQueue;
 
 class KafkaConnector implements ConnectorInterface
 {
-    public function connect(array $config)
+    public function connect(array $config): KafkaQueue
     {
         $conf = new \RdKafka\Conf();
 
